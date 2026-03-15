@@ -1,48 +1,159 @@
+<h2>Task 8: Navigation Menu</h2>
+
+<nav>
+
+<ul>
+
+<li><a href="#">Home</a></li>
+
+<li><a href="#">Courses</a></li>
+
+<li><a href="#">About</a></li>
+
+<li><a href="#">Contact</a></li>
+
+</ul>
+
+</nav>
+<link rel="stylesheet" href="../styles/components.css">
+<h2>Task 5: Button Styling</h2>
+
+<button class="btn btn-blue">Blue Button</button>
+
+<button class="btn btn-green btn-round">Round Button</button>
+
+<button class="btn btn-red btn-shadow">Shadow Button</button>
+
+<button class="btn btn-gradient btn-large">Gradient Button</button>
+
+<button class="btn btn-blue btn-small">Small Button</button>
+
+<button class="btn" disabled>Disabled Button</button>
+
+<h1>Task 6: Form Styling</h1>
+
+<form>
+
+<input type="text" placeholder="Name">
+
+<input type="email" class="error" placeholder="Email">
+
+<select>
+<option>Course</option>
+<option>Web Development</option>
+<option>Graphic Design</option>
+</select>
+
+<button class="btn btn-green">Register</button>
+
+<p class="success">Registration Successful!</p>
+
+</form>
+
+<h2>Task 7: Card Design</h2>
+
+<div class="card">
+
+<img src="../images/gallery/img.jpg" class="img1">
+
+<h3>Web Development</h3>
+
+<p>Learn HTML CSS JavaScript</p>
+
+<button class="btn btn-blue">Enroll</button>
+
+</div>
+
+<h2>Task 9: Transform Gallery</h2>
+<link rel="stylesheet" href="../styles/effects.css">
+
+<div class="box rotate">
+    <img src="../images/gallery/img.jpg" class="img1">
+
+<img src="../images/gallery/img1.jpg" class="img2">
+</div>
+
+<div class="box scale"></div>
+
+<div class="box move"></div>
+<h2>Task 10: Advanced Effects</h2>
+
+<h1 class="gradient-text">CSS Effects</h1>
+
+<div class="loader"></div>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio - Lab 02</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-        }
-        nav a {
-            margin: 10px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        img {
-            border-radius: 50%;
-        }
-    </style>
+    <title>Course Schedule</title>
+    <link rel="stylesheet" href="styles/main.css">
+<link rel="stylesheet" href="styles/components.css">
+<link rel="stylesheet" href="styles/effects.css">
+<link rel="stylesheet" href="styles/typography.css">
 </head>
 <body>
     <nav>
     <a href="index.html">Home</a> |
-    <a href="profile.html">profile</a> |
+    <a href="profile.html">Profile</a> |
     <a href="schedule.html">Schedule</a> |
     <a href="registration.html">Registration</a>
 </nav>
 <hr>
 
-<h1>Abdul Qadeer Afridi</h1>
-<p>BS Computer Science - UET Peshawar</p>
+<h1>Weekly Course Schedule</h1>
 
-<img src="profile.jpg" width="150" height="150">
+<table border="1" cellpadding="10">
+    <tr>
+        <th>Time</th>
+        <th>Monday</th>
+        <th>Tuesday</th>
+        <th>Wednesday</th>
+        <th>Thursday</th>
+        <th>Friday</th>
+    </tr>
 
-<nav>
-    <a href="profile.html">Profile</a>
-    <a href="schedule.html">Schedule</a>
-    <a href="navigation.html">Navigation</a>
-    <a href="registration.html">Registration</a>
-</nav>
+    <tr>
+        <td>09:00 - 10:00</td>
+        <td>Linear Algebra</td>
+        <td>Intro to Data Science</td>
+        <td></td>
+        <td>Operating Systems</td>
+        <td>Quran & Tafseer</td>
+    </tr>
 
-<p>Visit my 
-<a href="https://github.com/AbdulQadeer70/lab-01" target="_blank">GitHub Profile</a>
-</p>
+    <tr>
+        <td>10:00 - 11:00</td>
+        <td>Operating Systems</td>
+        <td></td>
+        <td></td>
+        <td>Applied Physics</td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td>11:00 - 12:00</td>
+        <td></td>
+        <td>Web Technologies</td>
+        <td>Intro to Data Science</td>
+        <td>Artificial Intelligence</td>
+        <td>Web Technologies</td>
+    </tr>
+
+    <tr>
+        <td>01:00 - 02:00</td>
+        <td colspan="5" align="center"><b>Lunch Break</b></td>
+    </tr>
+
+    <tr>
+        <td>02:00 - 03:00</td>
+        <td>Artificial Intelligence (Lab)</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td>Web Technologies (Lab)</td>
+    </tr>
+
+</table>
 
 </body>
 </html>
